@@ -1,0 +1,8 @@
+{
+  "name": "worker",
+  "description": "worker",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::548673361492:role/worker_lambda_function",
+  "environment": {}
+}
