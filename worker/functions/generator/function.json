@@ -1,0 +1,8 @@
+{
+  "runtime": "ruby2.5",
+  "handler": "index.handler",
+  "hooks": {
+    "build": "bundle install --deployment",
+    "clean": "bundle config --delete frozen"
+  }
+}
